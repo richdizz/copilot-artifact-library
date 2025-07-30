@@ -89,6 +89,36 @@
             ],
             "tags": ["C#", ".NET"],
             "version": "1.0"
+        },
+        {
+            "path": "./copilot/instructions/languages/python/python-instructions.md",
+            "description": "Instructions for Python development",
+            "type": "instructions",
+            "dependencies": [
+                "./copilot/instructions/languages/python/python-standards.md"
+            ],
+            "tags": ["Python"],
+            "version": "1.0"
+        },
+        {
+            "path": "./copilot/instructions/languages/react/react-instructions.md",
+            "description": "Instructions for React development",
+            "type": "instructions",
+            "dependencies": [
+                "./copilot/instructions/languages/react/react-standards.md"
+            ],
+            "tags": ["React", "JavaScript", "Web Development"],
+            "version": "1.0"
+        },
+        {
+            "path": "./copilot/instructions/languages/typescript/typescript-instructions.md",
+            "description": "Instructions for TypeScript development",
+            "type": "instructions",
+            "dependencies": [
+                "./copilot/instructions/languages/typescript/typescript-standards.md"
+            ],
+            "tags": ["TypeScript", "JavaScript"],
+            "version": "1.0"
         }
     ]
 }
