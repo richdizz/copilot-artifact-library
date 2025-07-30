@@ -61,7 +61,7 @@
             "version": "1.0"
         },
         {
-            "path": "./copilot/instructions/languages/bicep/bicep-instructions.md",
+            "path": "./copilot/instructions/languages/bicep/bicep.instructions.md",
             "description": "Instructions for Bicep infrastructure as code development",
             "type": "instructions",
             "dependencies": [
@@ -71,7 +71,7 @@
             "version": "1.0"
         },
         {
-            "path": "./copilot/instructions/languages/terraform/terraform-instructions.md",
+            "path": "./copilot/instructions/languages/terraform/terraform.istructions.md",
             "description": "Instructions for Terraform infrastructure as code development",
             "type": "instructions",
             "dependencies": [
@@ -81,7 +81,7 @@
             "version": "1.0"
         },
         {
-            "path": "./copilot/instructions/languages/csharp/csharp-instructions.md",
+            "path": "./copilot/instructions/languages/csharp/csharp.instructions.md",
             "description": "Instructions for C# development",
             "type": "instructions",
             "dependencies": [
@@ -91,7 +91,7 @@
             "version": "1.0"
         },
         {
-            "path": "./copilot/instructions/languages/python/python-instructions.md",
+            "path": "./copilot/instructions/languages/python/python.instructions.md",
             "description": "Instructions for Python development",
             "type": "instructions",
             "dependencies": [
@@ -101,7 +101,7 @@
             "version": "1.0"
         },
         {
-            "path": "./copilot/instructions/languages/react/react-instructions.md",
+            "path": "./copilot/instructions/languages/react/react.instructions.md",
             "description": "Instructions for React development",
             "type": "instructions",
             "dependencies": [
@@ -111,7 +111,7 @@
             "version": "1.0"
         },
         {
-            "path": "./copilot/instructions/languages/typescript/typescript-instructions.md",
+            "path": "./copilot/instructions/languages/typescript/typescript.instructions.md",
             "description": "Instructions for TypeScript development",
             "type": "instructions",
             "dependencies": [
