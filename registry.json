@@ -1,0 +1,94 @@
+{
+    "files": [
+        {
+            "path": "./copilot/prompts/cicd-azdo.prompt.md",
+            "description": "Prompt for generating Azure DevOps CI/CD pipelines",
+            "type": "prompt",
+            "dependencies": [
+                "./copilot/instructions/scenarios/cicd-azdo/cicd-azdo.instructions.md"
+            ],
+            "tags": ["Azure DevOps", "CI/CD", "Pipeline"],
+            "version": "1.0"
+        },
+        {
+            "path": "./copilot/prompts/cicd-github.prompt.md",
+            "description": "Prompt for generating GitHub Actions workflows",
+            "type": "prompt",
+            "dependencies": [
+                "./copilot/instructions/scenarios/cicd-github/cicd-github.instructions.md"
+            ],
+            "tags": ["GitHub Actions", "CI/CD", "Workflow"],
+            "version": "1.0"
+        },
+        {
+            "path": "./copilot/prompts/fabric-notebook.prompt.md",
+            "description": "Prompt for generating Microsoft Fabric notebooks and pipelines",
+            "type": "prompt",
+            "dependencies": [
+                "./copilot/instructions/scenarios/fabric/fabric-notebook.instructions.md"
+            ],
+            "tags": ["Microsoft Fabric", "Notebook", "Pipeline", "Data Engineering"],
+            "version": "1.0"
+        },
+        {
+            "path": "./copilot/prompts/generate-synthetic-data.prompt.md",
+            "description": "Prompt for generating synthetic data with realistic patterns",
+            "type": "prompt",
+            "dependencies": [],
+            "tags": ["Data Generation", "Synthetic Data", "Testing"],
+            "version": "1.0"
+        },
+        {
+            "path": "./copilot/prompts/iac-bicep.prompt.md",
+            "description": "Prompt for generating Azure infrastructure as code using Bicep",
+            "type": "prompt",
+            "dependencies": [
+                "./copilot/instructions/languages/bicep/bicep-instructions.md",
+                "./copilot/instructions/languages/bicep/bicep-standards.md"
+            ],
+            "tags": ["Azure", "Infrastructure as Code", "Bicep"],
+            "version": "1.0"
+        },
+        {
+            "path": "./copilot/prompts/iac-terraform.prompt.md",
+            "description": "Prompt for generating Azure infrastructure as code using Terraform",
+            "type": "prompt",
+            "dependencies": [
+                "./copilot/instructions/languages/terraform/terraform-instructions.md",
+                "./copilot/instructions/languages/terraform/terraform-standards.md"
+            ],
+            "tags": ["Azure", "Infrastructure as Code", "Terraform"],
+            "version": "1.0"
+        },
+        {
+            "path": "./copilot/instructions/languages/bicep/bicep-instructions.md",
+            "description": "Instructions for Bicep infrastructure as code development",
+            "type": "instructions",
+            "dependencies": [
+                "./copilot/instructions/languages/bicep/bicep-standards.md"
+            ],
+            "tags": ["Bicep", "Infrastructure as Code"],
+            "version": "1.0"
+        },
+        {
+            "path": "./copilot/instructions/languages/terraform/terraform-instructions.md",
+            "description": "Instructions for Terraform infrastructure as code development",
+            "type": "instructions",
+            "dependencies": [
+                "./copilot/instructions/languages/terraform/terraform-standards.md"
+            ],
+            "tags": ["Terraform", "Infrastructure as Code"],
+            "version": "1.0"
+        },
+        {
+            "path": "./copilot/instructions/languages/csharp/csharp-instructions.md",
+            "description": "Instructions for C# development",
+            "type": "instructions",
+            "dependencies": [
+                "./copilot/instructions/languages/csharp/csharp-standards.md"
+            ],
+            "tags": ["C#", ".NET"],
+            "version": "1.0"
+        }
+    ]
+}
